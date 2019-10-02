@@ -1,0 +1,10 @@
+def print_rangoli(size):
+    from string import ascii_lowercase
+    al = ascii_lowercase
+    sti = []
+    for i in range(n):
+        s = "-".join(al[i:n])
+        sti.append((s[::-1]+s[1:]).center(4*n-3, "-"))
+    print('\n'.join(sti[:0:-1]+sti))
+n = int(input())
+print_rangoli(n)
